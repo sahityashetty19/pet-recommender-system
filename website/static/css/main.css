@@ -1,0 +1,95 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   
+body{
+	font-family: 'Open Sans';
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Armata";
+	color: #555;
+}
+
+
+p{
+	font-family: "Open Sans";
+}
+
+@media only screen and (min-width: 992px) {
+	p{
+		font-size: 18px;
+	}
+	.title{
+		padding-top: 0px;
+	}
+	.title h1{
+		font-size: 50px;
+		margin-bottom: 25px;
+		font-family: "Quicksand";
+	}
+	
+	.question{
+		padding-top:10px;
+		padding-bottom: 10px;
+	}
+	.question h2{
+		font-family: Armata;
+	}
+	
+	.option-image{
+		padding: 15px;
+	}
+	
+	.option a{
+		text-decoration: none;
+	}
+	
+	.option:hover{
+		opacity: 0.5;
+	}
+	
+	.option-text{
+		padding-top: 20px;
+	}
+	
+	.recommendation-title h2{
+		font-family: Armata;
+	}
+	
+	.reco-row{
+		padding-left: 50px;
+		padding-right:50px;
+	}
+	.dog-name{
+		padding-top: 10px;
+		font-family: Armata;
+		font-size: 20px;
+	}
+	.dog-image{
+		padding-top:50px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
